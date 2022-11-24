@@ -1,0 +1,12 @@
+.card-text {
+    padding: 1rem !important;
+}
+
+.Collapsible__trigger {
+    font-weight: 900;
+    font-size: large;
+    text-decoration: underline;
+    width: 80%;
+    padding: 5px;
+    color: #2C6693
+}
