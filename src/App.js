@@ -6,6 +6,13 @@ import Collapsible from 'react-collapsible'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./assets/css/style.css";
 
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  crossorigin="anonymous"
+/>
+
 import Footer from './components/footer'
 
 let currentUserGroups = {}
@@ -48,14 +55,12 @@ const MyApp = () => {
                     console.log(approved_status)
                     return (
                         <>
-                            <div className="container-main">
+                            {/* <div className="container-main"> */}
                                 <div className='container'>
-                                            <div className='row datasetrow'>
-                                                <div className='col-md-12'>
                                                     <Collapsible trigger="Partner Performance Monitoring System" open="true">
-                                                        <hr></hr>
-                                                        <div className="card-body flex-row" style={{display: 'flex'}}>
-                                                            <div className="col-md-3 card-holder m-2">
+                                                        <hr></hr>   
+                                                        <div className='datasetrow flex-container'>
+                                                            <div className="card-holder m-2">
                                                                 <div className="card m-b-1" style={{backgroundColor: 'white'}}>
                                                                     <div className="card-body p-2">
                                                                         <div className="card-text text-caps p-20" style={{fontSize: '0.8rem', fontWeight: '900', color: '#0F79FA'}}>
@@ -66,96 +71,88 @@ const MyApp = () => {
                                                                 </div>
                                                             </div>                                                    
 
-                                                            <div className="col-md-3 card-holder m-2">
+                                                            <div className="card-holder m-2">
                                                                 <div className="card m-b-1" style={{backgroundColor: 'white'}}>
                                                                     <div className="card-body p-2">
                                                                         <div className="card-text text-caps p-20" style={{fontSize: '0.8rem', fontWeight: '900', color: '#0F79FA'}}>
                                                                             <a href="https://partnermanagementsystem.uonbi.ac.ke/api/apps/Partner-Reporting-Dashboards/html/index.html">
-                                                                                Dashboard
+                                                                                Dashboard PPMS
                                                                             </a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-
                                                         </div>
                                                     </Collapsible>
-                                                </div>
-                                            </div>
 
-                                            <div className="row datasetrow"  id='dqa_usaid' style = {{display:approved_status}}>
-                                                <div className='col-md-12'>
                                                     <Collapsible trigger="HIV DQA 2022" open="true">
                                                         <hr></hr>
-                                                        <div className="card-body" style={{display: 'flex'}}>
-                                                            <div className="col-md-3 card-holder m-2">
-                                                                <div className="card m-b-1" style={{backgroundColor: 'white'}}>
-                                                                    <div className="card-body p-2">
-                                                                        <div className="card-text text-caps p-20" style={{fontSize: '0.8rem', fontWeight: '900', color: '#0F79FA'}}>
-                                                                            <a href="https://partnermanagementsystem.uonbi.ac.ke/dhis-web-capture/index.html#/programId=lWNCcizbWF3">
-                                                                                1. IP Assessment
-                                                                            </a>
+                                                    <div className=" datasetrow"  id='dqa_usaid'>
+                                                        <div className='flex-container'>
+                                                                <div className="card-holder m-2">
+                                                                    <div className="card m-b-1" style={{backgroundColor: 'white'}}>
+                                                                        <div className="card-body p-2">
+                                                                            <div className="card-text text-caps p-20" style={{fontSize: '0.8rem', fontWeight: '900', color: '#0F79FA'}}>
+                                                                                <a href="https://partnermanagementsystem.uonbi.ac.ke/dhis-web-capture/index.html#/programId=lWNCcizbWF3">
+                                                                                    1. IP  System <br></br>Assessment
+                                                                                </a>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
 
-                                                            <div className="col-md-3 card-holder m-2">
-                                                                <div className="card m-b-1" style={{backgroundColor: 'white'}}>
-                                                                    <div className="card-body p-2">
-                                                                        <div className="card-text text-caps p-20" style={{fontSize: '0.8rem', fontWeight: '900', color: '#0F79FA'}}>
-                                                                            <a href="https://partnermanagementsystem.uonbi.ac.ke/dhis-web-capture/index.html#/programId=rWscGhjShfE">
-                                                                            2. IP Data Quality
-                                                                            </a>
+                                                                <div className="card-holder m-2">
+                                                                    <div className="card m-b-1" style={{backgroundColor: 'white'}}>
+                                                                        <div className="card-body p-2">
+                                                                            <div className="card-text text-caps p-20" style={{fontSize: '0.8rem', fontWeight: '900', color: '#0F79FA'}}>
+                                                                                <a href="https://partnermanagementsystem.uonbi.ac.ke/dhis-web-capture/index.html#/programId=rWscGhjShfE">
+                                                                                2. IP Data Quality <br></br> Checklist
+                                                                                </a>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
 
-                                                            <div className="col-md-3 card-holder m-2">
-                                                                <div className="card m-b-1" style={{backgroundColor: 'white'}}>
-                                                                    <div className="card-body p-2">
-                                                                        <div className="card-text text-caps p-20" style={{fontSize: '0.8rem', fontWeight: '900', color: '#0F79FA'}}>
-                                                                            <a href="https://partnermanagementsystem.uonbi.ac.ke/dhis-web-capture/index.html#/programId=ilWNUxRen9a">
-                                                                                3. Site Visit
-                                                                            </a>
+                                                                <div className="card-holder m-2">
+                                                                    <div className="card m-b-1" style={{backgroundColor: 'white'}}>
+                                                                        <div className="card-body p-2">
+                                                                            <div className="card-text text-caps p-20" style={{fontSize: '0.8rem', fontWeight: '900', color: '#0F79FA'}}>
+                                                                                <a href="https://partnermanagementsystem.uonbi.ac.ke/dhis-web-capture/index.html#/programId=ilWNUxRen9a">
+                                                                                    3. Site Visit <br></br> System Assessment
+                                                                                </a>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
 
-                                                            <div className="col-md-3 card-holder m-2">
-                                                                <div className="card m-b-1" style={{backgroundColor: 'white'}}>
-                                                                    <div className="card-body p-2">
-                                                                        <div className="card-text text-caps p-20" style={{fontSize: '0.8rem', fontWeight: '900', color: '#0F79FA'}}>
-                                                                            <a href="https://partnermanagementsystem.uonbi.ac.ke/dhis-web-dataentry/index.action">
-                                                                            4. Data Verification
-                                                                            </a>
+                                                                <div className="card-holder m-2">
+                                                                    <div className="card m-b-1" style={{backgroundColor: 'white'}}>
+                                                                        <div className="card-body p-2">
+                                                                            <div className="card-text text-caps p-20" style={{fontSize: '0.8rem', fontWeight: '900', color: '#0F79FA'}}>
+                                                                                <a href="https://partnermanagementsystem.uonbi.ac.ke/dhis-web-dataentry/index.action">
+                                                                                4. Site Level <br></br> Data Verification
+                                                                                </a>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className='row'>
 
-                                                            <div className="col-md-3 card-holder m-2">
+                                                            <div className="card-holder m-2">
                                                                 <div className="card m-b-1" style={{backgroundColor: 'white'}}>
                                                                     <div className="card-body p-2">
                                                                         <div className="card-text text-caps p-20" style={{fontSize: '0.8rem', fontWeight: '900', color: '#0F79FA'}}>
                                                                             <a href="https://partnermanagementsystem.uonbi.ac.ke/api/apps/HIV-DQA-2022-VISUALS/html/index.html">
-                                                                                5. Dashboard
+                                                                                5. Dashboard <br></br>.
                                                                             </a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-
-                                                        </div>
+                                                            </div> 
+                                                            </div>   
+                                                        </div>                                                    
                                                     </Collapsible>
-                                                </div>
-                                            </div>
                                     </div>                        
-                            </div>
+                            {/* </div> */}
                             <Footer/>
 
                         </>
