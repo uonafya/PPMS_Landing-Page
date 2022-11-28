@@ -141,13 +141,8 @@ const MyApp = () => {
                                                                 <div className="card m-b-1" style={{backgroundColor: 'white'}}>
                                                                     <div className="card-body p-2">
                                                                         <div className="card-text text-caps p-20" style={{fontSize: '0.8rem', fontWeight: '900', color: '#0F79FA'}}>
-<<<<<<< HEAD
                                                                             <a href="https://partnermanagementsystem.uonbi.ac.ke/api/apps/hiv-dqa-2022-visuals/html/index.html">
                                                                                 5. Dashboard
-=======
-                                                                            <a href="https://partnermanagementsystem.uonbi.ac.ke/api/apps/HIV-DQA-2022-VISUALS/html/index.html">
-                                                                                5. Dashboard <br></br>.
->>>>>>> 66a1a5a79db7bed1c56c76b9f5dd82420c24c427
                                                                             </a>
                                                                         </div>
                                                                     </div>
