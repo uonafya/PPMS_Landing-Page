@@ -50,7 +50,7 @@ const MyApp = () => {
                     if (approved_status > 0) {
                         approved_status = ""
                     }else{
-                        approved_status = "none"
+                        approved_status = ""
                     }
                     console.log(approved_status)
                     return (
@@ -87,15 +87,15 @@ const MyApp = () => {
 
                                                     <Collapsible trigger="HIV DQA 2022" open="true">
                                                         <hr></hr>
-                                                    <div className=" datasetrow"  id='dqa_usaid'>
+                                                    <div className="datasetrow"  id='dqa_usaid'>
                                                         <div className='flex-container'>
                                                                 <div className="card-holder m-2">
                                                                     <div className="card m-b-1" style={{backgroundColor: 'white'}}>
                                                                         <div className="card-body p-2">
-                                                                            <div className="card-text text-caps p-20" style={{fontSize: '0.8rem', fontWeight: '900', color: '#0F79FA'}}>
-                                                                                <a href="https://partnermanagementsystem.uonbi.ac.ke/dhis-web-capture/index.html#/programId=lWNCcizbWF3">
+                                                                            <div className="card-text text-caps p-20" style={{fontSize: '0.8rem', fontWeight: '900', color: '#70a1e5'}}>
+                                                                                {/* <a href="https://partnermanagementsystem.uonbi.ac.ke/dhis-web-capture/index.html#/programId=lWNCcizbWF3" disabled> */}
                                                                                     1. IP  System <br></br>Assessment
-                                                                                </a>
+                                                                                {/* </a> */}
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -104,10 +104,10 @@ const MyApp = () => {
                                                                 <div className="card-holder m-2">
                                                                     <div className="card m-b-1" style={{backgroundColor: 'white'}}>
                                                                         <div className="card-body p-2">
-                                                                            <div className="card-text text-caps p-20" style={{fontSize: '0.8rem', fontWeight: '900', color: '#0F79FA'}}>
-                                                                                <a href="https://partnermanagementsystem.uonbi.ac.ke/dhis-web-capture/index.html#/programId=rWscGhjShfE">
+                                                                            <div className="card-text text-caps p-20" style={{fontSize: '0.8rem', fontWeight: '900', color: '#70a1e5'}}>
+                                                                                {/* <a href="https://partnermanagementsystem.uonbi.ac.ke/dhis-web-capture/index.html#/programId=rWscGhjShfE" disabled> */}
                                                                                 2. IP Data Quality <br></br> Checklist
-                                                                                </a>
+                                                                                {/* </a> */}
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -116,10 +116,10 @@ const MyApp = () => {
                                                                 <div className="card-holder m-2">
                                                                     <div className="card m-b-1" style={{backgroundColor: 'white'}}>
                                                                         <div className="card-body p-2">
-                                                                            <div className="card-text text-caps p-20" style={{fontSize: '0.8rem', fontWeight: '900', color: '#0F79FA'}}>
-                                                                                <a href="https://partnermanagementsystem.uonbi.ac.ke/dhis-web-capture/index.html#/programId=ilWNUxRen9a">
+                                                                            <div className="card-text text-caps p-20" style={{fontSize: '0.8rem', fontWeight: '900', color: '#70a1e5'}}>
+                                                                                {/* <a href="https://partnermanagementsystem.uonbi.ac.ke/dhis-web-capture/index.html#/programId=ilWNUxRen9a" disabled> */}
                                                                                     3. Site Visit <br></br> System Assessment
-                                                                                </a>
+                                                                                {/* </a> */}
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -128,10 +128,10 @@ const MyApp = () => {
                                                                 <div className="card-holder m-2">
                                                                     <div className="card m-b-1" style={{backgroundColor: 'white'}}>
                                                                         <div className="card-body p-2">
-                                                                            <div className="card-text text-caps p-20" style={{fontSize: '0.8rem', fontWeight: '900', color: '#0F79FA'}}>
-                                                                                <a href="https://partnermanagementsystem.uonbi.ac.ke/dhis-web-dataentry/index.action">
+                                                                            <div className="card-text text-caps p-20" style={{fontSize: '0.8rem', fontWeight: '900', color: '#70a1e5'}}>
+                                                                                {/* <a href="https://partnermanagementsystem.uonbi.ac.ke/dhis-web-dataentry/index.action" disabled> */}
                                                                                 4. Site Level <br></br> Data Verification
-                                                                                </a>
+                                                                                {/* </a> */}
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -142,7 +142,7 @@ const MyApp = () => {
                                                                     <div className="card-body p-2">
                                                                         <div className="card-text text-caps p-20" style={{fontSize: '0.8rem', fontWeight: '900', color: '#0F79FA'}}>
                                                                             <a href="https://partnermanagementsystem.uonbi.ac.ke/api/apps/HIV-DQA-2022-VISUALS/html/index.html">
-                                                                                5. Dashboard <br></br>.
+                                                                                5. Dashboard <br></br><span style={{color: 'white'}}>.</span>
                                                                             </a>
                                                                         </div>
                                                                     </div>
