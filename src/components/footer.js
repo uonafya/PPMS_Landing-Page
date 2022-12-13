@@ -6,13 +6,13 @@ import health_log from '../assets/images/healthit.png'
 const Footer = () => (
   <div className="footer">
         <div className="row flex-container">
-            <div className="col-md-4">
+            <div className="col-md-4 photos">
             <   img src={usaid_log} alt="University of Nairobi" />
             </div>
-            <div className="col-md-4 center">
+            <div className="col-md-4 photos center">
                 <img src={uon_logo} alt="University of Nairobi" />
             </div>
-            <div className="col-md-4 right-align">
+            <div className="col-md-4 photos right-align">
                 <img src={health_log} alt="University of Nairobi" />
             </div>
 
