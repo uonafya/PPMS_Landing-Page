@@ -68,7 +68,6 @@ const MyApp = () => {
 
                   </section>
                 </Collapsible>
-
                 <hr></hr>
                 <Collapsible trigger="HIV DQA 2022" open="true">
                   <section class="page-contain">
@@ -78,7 +77,6 @@ const MyApp = () => {
                     <a href="#" class="data-card not-active">
                       <span className="hh4">1. IP System Assessment</span>
                     </a>
-
                     <a href="#" class="data-card not-active">
                       <span className="hh4">2. IP Data Quality checklist</span>
                     </a>
