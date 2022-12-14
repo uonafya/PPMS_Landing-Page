@@ -60,10 +60,10 @@ const MyApp = () => {
                 >
                   <section class="page-contain">
                     <a href="/api/apps/Partner-Reporting-Dashboards/html/index.html" class="data-card">
-                      <h4>PPMS Dashboard</h4>
+                      <span className="hh4">PPMS Dashboard</span>
                     </a>
-                    <a href="api/apps/data-import-app/index.html" class="data-card">
-                      <h4>Data import app</h4>
+                    <a href="/api/apps/data-import-app/index.html" class="data-card">
+                      <span className="hh4">Data import app</span>
                     </a>
 
                   </section>
@@ -73,20 +73,20 @@ const MyApp = () => {
                 <Collapsible trigger="HIV DQA 2022" open="true">
                   <section class="page-contain">
                     <a href="/api/apps/HIV-DQA-2022-VISUALS/html/index.html" class="data-card">
-                      <h4>HIV DQA 2022 Dashboard</h4>
+                      <span className="hh4">HIV DQA 2022 Dashboard</span>
                     </a>
                     <a href="#" class="data-card not-active">
-                      <h4>1. IP System Assessment</h4>
+                      <span className="hh4">1. IP System Assessment</span>
                     </a>
 
                     <a href="#" class="data-card not-active">
-                      <h4>2. IP Data Quality checklist</h4>
+                      <span className="hh4">2. IP Data Quality checklist</span>
                     </a>
                     <a href="#" class="data-card not-active">
-                      <h4>3. Site Visit System Assessment</h4>
+                      <span className="hh4">3. Site Visit System Assessment</span>
                     </a>
                     <a href="#" class="data-card not-active">
-                      <h4>4. Site Level Data Verification</h4>
+                      <span className="hh4">4. Site Level Data Verification</span>
                     </a>
                   </section>
                 </Collapsible>
