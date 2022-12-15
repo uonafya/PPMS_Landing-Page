@@ -18,7 +18,7 @@ import Footer from "./components/footer";
 let currentUserGroups = {};
 let approved_status = null;
 let approved = null;
-let approveddqa = ["aCvNaROTROK", "Ox2t1UrgXZ7", "ZC3c83Ie1xw"];
+let approveddqa = ["aCvNaROTROK"];
 const query = {
   me: {
     resource: "me",
@@ -46,7 +46,7 @@ const MyApp = () => {
           });
           console.log({ approved_status });
           if (approved_status > 0) {
-            approved_status = "";
+            approved_status = "none";
           } else {
             approved_status = "";
           }
@@ -62,7 +62,7 @@ const MyApp = () => {
                     <a href="/api/apps/Partner-Reporting-Dashboards/html/index.html" class="data-card">
                       <span className="hh4">PPMS Dashboard</span>
                     </a>
-                    <a href="/api/apps/data-import-app/index.html" class="data-card">
+                    <a href="/api/apps/data-import-app/index.html" class="data-card" style={{display:approved_status}}>
                       <span className="hh4">Data import app</span>
                     </a>
 
