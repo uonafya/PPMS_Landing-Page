@@ -77,14 +77,11 @@ const MyApp = () => {
                     <a href="/dhis-web-tracker-capture/index.html#/?program=bkgTaUe8wlW" class="data-card">
                       <span className="hh4">SEIT Data Entry</span>
                     </a>
-                    <a href="/dhis-web-event-reports/index.html?id=MkzEgqnotxD" class="data-card">
-                      <span className="hh4">SEIT Summary 2020</span>
-                    </a>
                     <a href="/dhis-web-event-reports/index.html?id=gAUp0jSkO1H" class="data-card">
-                      <span className="hh4">SEIT Summary 2023</span>
+                      <span className="hh4">SEIT Summary</span>
                     </a>
-                    <a href="/api/apps/Partner-Reporting-Dashboards/html/seit.html" class="data-card">
-                      <span className="hh4">SEIT Dashboard</span>
+                    <a href="/api/apps/Partner-Reporting-Dashboards/html/index.html" class="data-card">
+                      <span className="hh4">SEIT Report</span>
                     </a>
                   </section>
                 </Collapsible>

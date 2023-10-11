@@ -84,7 +84,7 @@ const MyApp = () => {
                       <span className="hh4">SEIT Summary 2023</span>
                     </a>
                     <a href="/api/apps/Partner-Reporting-Dashboards/html/seit.html" class="data-card">
-                      <span className="hh4">SEIT Dashboard</span>
+                      <span className="hh4">SEIT Report</span>
                     </a>
                   </section>
                 </Collapsible>
